@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-app1
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8080/v1/spring/@project.version@
+      token: eyJhbGciOiJSUzI1NiJ9.c3ByaW5nLWFwcDEK.LZ0LQs1dZZu0uyf98H-fbhDy7tS-Jp3kJJPG0ukjnFWPYUn70BaqzHnMtE5cN_te6pgqTjdaFZ-S0MkMrsQagd9xYIdDLNwDjrvX5waTDGKfcBpNLim-fFv3AO-HLw8l92tnu_-eyXF_CPOHTn5KZF5wWp4Cu013AIz-1JDfKLaDTXjd8Uf8644WA_SWlnFUxFI4gyOh8Wo9XiaUCowhpXwRecF1g3seItuVlbpSq9Dbfmi_q2CNgm8T-FijhboR1c080IF9cvjYZErufEtsDyib6pQJ_zqGQBf7Zqcg5AsWWbpSO4HxKLCp2iZpblAYl7zeuNgXJdItEyBjRaQwTQ
