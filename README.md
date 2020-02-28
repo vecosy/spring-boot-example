@@ -2,6 +2,7 @@
 
 ## 1. Start the vecosy server
 ```shell script
+$> docker pull vecosy/vecosy:demo
 $> docker run --rm  -p 8080:8080 -p 8081:8081 vecosy/vecosy:demo
 ```
 
